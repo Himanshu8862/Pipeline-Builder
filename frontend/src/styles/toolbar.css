@@ -1,0 +1,32 @@
+/* Toolbar Styles */
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff16;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+
+  .toolbar .draggable-node {
+    background: linear-gradient(145deg, #6b6f77, #353a40);
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .toolbar .draggable-node:hover {
+    background: linear-gradient(145deg, #4b5057, #2b2f34);
+    transform: translateY(-3px);
+  }
+
+  .toolbar .draggable-node:active {
+    background: linear-gradient(145deg, #333537, #1f2123);
+  }

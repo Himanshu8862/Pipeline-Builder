@@ -1,0 +1,67 @@
+/* BaseNode.css */
+.base-node {
+    width: 240px;
+    background: #1e1e1e; /* Darker background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+
+
+  .base-node h3 {
+    font-size: 20px;
+    color: #ffffff; /* Light text */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .base-node .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  .base-node label {
+    font-size: 14px;
+    color: #bbb; /* Lighter label color */
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .base-node input,
+  .base-node select {
+    width: 90%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 6px;
+    background-color: #333; /* Dark input background */
+    color: #e0e0e0; /* Light text inside inputs */
+    transition: all 0.3s ease-in-out;
+  }
+
+  .base-node input:focus,
+  .base-node select:focus {
+    outline: none;
+    border-color: #4a90e2; /* Blue border on focus */
+  }
+
+
+
+  .base-node .react-flow__handle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4a90e2; /* Blue handle */
+    border: 2px solid #1e1e1e; /* Dark border around handle */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+

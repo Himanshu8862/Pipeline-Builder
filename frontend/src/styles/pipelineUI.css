@@ -1,0 +1,29 @@
+/* UI Styles */
+.reactflow-wrapper {
+    height: 70vh;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .reactflow-wrapper .react-flow__node {
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+
+  .reactflow-wrapper .react-flow__handle {
+    background-color: #b8d5f4;
+  }
+
+
+  .reactflow-wrapper .react-flow__controls {
+    background-color: #fff;
+  }
+
+  .reactflow-wrapper .react-flow__background {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

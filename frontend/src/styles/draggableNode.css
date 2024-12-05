@@ -1,0 +1,21 @@
+/* draggableNode.css */
+.draggable-node {
+    cursor: grab;
+    min-width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #1C2536; /* Dark background for draggable node */
+    color: #ffffff; /* Light text */
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+  }
+
+
+  .draggable-node:active {
+    cursor: grabbing;
+  }
